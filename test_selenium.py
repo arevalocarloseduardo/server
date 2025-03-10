@@ -21,7 +21,7 @@ def capture_screenshot(filename="meet_screenshot.png"):
     driver.save_screenshot(filename)
     img = Image.open(filename)
     img.show()  # Muestra la imagen capturada
-meet_url = "https://meet.google.com/ach-hnno-sst"
+meet_url = "https://meet.google.com/cri-vaob-nyw"
 join_meet(meet_url)
 capture_screenshot()
 driver.quit()
