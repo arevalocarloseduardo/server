@@ -16,12 +16,12 @@ options.add_argument("--headless")
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
 options.add_argument("--disable-blink-features=AutomationControlled")
-options.add_experimental_option("excludeSwitches", ["enable-automation"])
+# options.add_experimental_option("excludeSwitches", ["enable-automation"])
 options.add_experimental_option('useAutomationExtension', False)
 
 # Configura el perfil de usuario para mantener la sesión de Google
 options.add_argument("user-data-dir=/tmp/selenium_profile")  # Cambia esto a una ruta persistente si es necesario
-driver_service = Service("/usr/bin/chromedriver") 
+driver_service = Service(executable_path="/usr/bin/chromedriver") 
 driver = uc.Chrome(service=driver_service, options=options)
 
 def login_google(email, password):
