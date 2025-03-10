@@ -133,11 +133,11 @@ def join_meet(driver, meet_url, disable_camera=True, disable_mic=True):
         # Verificar si ya estamos dentro de la reunión
         if "?authuser=" in driver.current_url and not "/lookup/" in driver.current_url:
             logger.info("Ya dentro de la página de reunión")
-        
+        capture_screenshot(driver, "esperandocontroles")
         # En un entorno headless, puede ser mejor esperar elementos específicos
         logger.info("Esperando que aparezcan controles de audio/vídeo y botón de unirse...")
         time.sleep(5)
-        
+        capture_screenshot(driver, "controlesnada")
         # Intentar diferentes selectores para deshabilitar cámara/micrófono
         try:
             if disable_camera:
