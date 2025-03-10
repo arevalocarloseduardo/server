@@ -4,10 +4,13 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import undetected_chromedriver as uc
+
+from selenium.webdriver.chrome.service import Service
 import time
 from PIL import Image
+import shutil
 
-
+print(shutil.which("chromedriver"))
 options = uc.ChromeOptions()
 options.add_argument("--headless")
 options.add_argument("--no-sandbox")
@@ -18,8 +21,8 @@ options.add_experimental_option('useAutomationExtension', False)
 
 # Configura el perfil de usuario para mantener la sesión de Google
 options.add_argument("user-data-dir=/tmp/selenium_profile")  # Cambia esto a una ruta persistente si es necesario
-
-driver = uc.Chrome(options=options)
+driver_service = Service("/usr/bin/chromedriver") 
+driver = uc.Chrome(service=driver_service, options=options)
 
 def login_google(email, password):
     driver.get("https://accounts.google.com/signin")
