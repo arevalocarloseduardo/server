@@ -10,13 +10,13 @@ options.add_argument("--disable-dev-shm-usage")
 driver = webdriver.Chrome(options=options)
 def join_meet(meet_url):
     driver.get(meet_url)
-    time.sleep(5)
-    try:
-        join_button = driver.find_element(By.XPATH, "//span[text()='Unirse ahora']")
-        join_button.click()
-        time.sleep(5)
-    except Exception as e:
-        print("No se pudo encontrar el botón de 'Unirse ahora':", e)
+    time.sleep(10)
+    # try:
+    #     join_button = driver.find_element(By.XPATH, "//span[text()='Unirse ahora']")
+    #     join_button.click()
+    #     time.sleep(5)
+    # except Exception as e:
+    #     print("No se pudo encontrar el botón de 'Unirse ahora':", e)
 def capture_screenshot(filename="meet_screenshot.png"):
     driver.save_screenshot(filename)
     img = Image.open(filename)
