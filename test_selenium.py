@@ -18,18 +18,23 @@ driver = webdriver.Chrome(options=options)
 
 def login_google(email, password):
     driver.get("https://accounts.google.com/signin")
+    capture_screenshot()
     wait = WebDriverWait(driver, 20)  # Espera hasta 20 segundos
     email_input = wait.until(EC.presence_of_element_located((By.ID, "identifierId")))
     email_input.send_keys(email)
+    capture_screenshot()
     driver.find_element(By.ID, "identifierNext").click()
+    capture_screenshot()
     password_input = wait.until(EC.presence_of_element_located((By.NAME, "Passwd")))
     password_input.send_keys(password)
+    capture_screenshot()
     driver.find_element(By.ID, "passwordNext").click()
     time.sleep(5) # Espera a que se complete el inicio de sesión
 
 def join_meet(meet_url):
     driver.get(meet_url)
     wait = WebDriverWait(driver, 20)
+    capture_screenshot()
     try:
         # Busca el botón "Unirse ahora" utilizando una estrategia más robusta
         join_button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "[jsname='CQylAd']")))
