@@ -67,10 +67,10 @@ def join_meet_as_guest(driver, meet_url, guest_name="Invitado", disable_camera=T
     try:
         logger.info(f"Intentando unirse a la reunión como invitado: {meet_url}")
         driver.get(meet_url)
-        wait = WebDriverWait(driver, 30)
+        wait = WebDriverWait(driver, 35)
         
         # Esperar a que la página cargue completamente
-        time.sleep(10)
+        time.sleep(20)
         logger.info(f"URL actual: {driver.current_url}")
         capture_screenshot(driver, "1_pagina_meet_cargada")
         
@@ -97,7 +97,7 @@ def join_meet_as_guest(driver, meet_url, guest_name="Invitado", disable_camera=T
                     name_entered = True
                     break
                 except Exception as e:
-                    logger.debug(f"Selector para nombre {selector} falló: {e}")
+                    logger.info(f"Selector para nombre {selector} falló: {e}")
                     continue
             
             if not name_entered:
@@ -143,7 +143,7 @@ def join_meet_as_guest(driver, meet_url, guest_name="Invitado", disable_camera=T
                         except:
                             continue
                 except Exception as e:
-                    logger.debug(f"Error al verificar cámara: {e}")
+                    logger.info(f"Error al verificar cámara: {e}")
             
             if disable_mic:
                 try:
@@ -159,7 +159,7 @@ def join_meet_as_guest(driver, meet_url, guest_name="Invitado", disable_camera=T
                         except:
                             continue
                 except Exception as e:
-                    logger.debug(f"Error al verificar micrófono: {e}")
+                    logger.info(f"Error al verificar micrófono: {e}")
         
         except Exception as e:
             logger.warning(f"No se pudieron configurar los dispositivos: {e}")
