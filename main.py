@@ -278,7 +278,7 @@ def join_meet_as_guest(driver, meet_url, guest_name="Invitado", disable_camera=T
 
 def main():
     # Configuración
-    meet_url = "https://meet.google.com/buv-dknh-dsx"
+    meet_url = "https://meet.google.com/whq-cfhh-eji"
     guest_name = "Invitado Bot"  # Nombre que aparecerá en la reunión
     
     driver = None
