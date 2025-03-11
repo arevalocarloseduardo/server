@@ -232,3 +232,189 @@ Stacktrace:
 #19 0x7f447aac3c3c <unknown>
 
 2025-03-11 01:19:55,147 - INFO - Cerrando el navegador
+2025-03-11 01:21:22,871 - INFO - patching driver executable /home/carevalo/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-03-11 01:21:23,207 - INFO - Driver headless inicializado correctamente
+2025-03-11 01:21:23,207 - INFO - Intentando unirse a la reunión como invitado: https://meet.google.com/whq-cfhh-eji
+2025-03-11 01:21:49,152 - INFO - URL actual: https://meet.google.com/whq-cfhh-eji
+2025-03-11 01:21:49,258 - INFO - Captura guardada: screenshots/1_pagina_meet_cargada_20250311_012149.png
+2025-03-11 01:21:49,258 - INFO - Ingresando nombre de invitado: Invitado Bot
+2025-03-11 01:22:28,130 - INFO - Selector para nombre input[type='text'] falló: Message: 
+Stacktrace:
+#0 0x55ef126e3a1a <unknown>
+#1 0x55ef1219b390 <unknown>
+#2 0x55ef121ecc85 <unknown>
+#3 0x55ef121eceb1 <unknown>
+#4 0x55ef1223bd64 <unknown>
+#5 0x55ef12212bfd <unknown>
+#6 0x55ef1223907b <unknown>
+#7 0x55ef122129a3 <unknown>
+#8 0x55ef121de60e <unknown>
+#9 0x55ef121dfdd1 <unknown>
+#10 0x55ef126a9ddb <unknown>
+#11 0x55ef126adcbc <unknown>
+#12 0x55ef12691392 <unknown>
+#13 0x55ef126ae834 <unknown>
+#14 0x55ef126751ef <unknown>
+#15 0x55ef126d2038 <unknown>
+#16 0x55ef126d2216 <unknown>
+#17 0x55ef126e2896 <unknown>
+#18 0x7f6918708aa4 <unknown>
+#19 0x7f6918795c3c <unknown>
+
+2025-03-11 01:23:07,014 - INFO - Selector para nombre input#mat-input-0 falló: Message: 
+Stacktrace:
+#0 0x55ef126e3a1a <unknown>
+#1 0x55ef1219b390 <unknown>
+#2 0x55ef121ecc85 <unknown>
+#3 0x55ef121eceb1 <unknown>
+#4 0x55ef1223bd64 <unknown>
+#5 0x55ef12212bfd <unknown>
+#6 0x55ef1223907b <unknown>
+#7 0x55ef122129a3 <unknown>
+#8 0x55ef121de60e <unknown>
+#9 0x55ef121dfdd1 <unknown>
+#10 0x55ef126a9ddb <unknown>
+#11 0x55ef126adcbc <unknown>
+#12 0x55ef12691392 <unknown>
+#13 0x55ef126ae834 <unknown>
+#14 0x55ef126751ef <unknown>
+#15 0x55ef126d2038 <unknown>
+#16 0x55ef126d2216 <unknown>
+#17 0x55ef126e2896 <unknown>
+#18 0x7f6918708aa4 <unknown>
+#19 0x7f6918795c3c <unknown>
+
+2025-03-11 01:23:45,885 - INFO - Selector para nombre input[aria-label*='name'] falló: Message: 
+Stacktrace:
+#0 0x55ef126e3a1a <unknown>
+#1 0x55ef1219b390 <unknown>
+#2 0x55ef121ecc85 <unknown>
+#3 0x55ef121eceb1 <unknown>
+#4 0x55ef1223bd64 <unknown>
+#5 0x55ef12212bfd <unknown>
+#6 0x55ef1223907b <unknown>
+#7 0x55ef122129a3 <unknown>
+#8 0x55ef121de60e <unknown>
+#9 0x55ef121dfdd1 <unknown>
+#10 0x55ef126a9ddb <unknown>
+#11 0x55ef126adcbc <unknown>
+#12 0x55ef12691392 <unknown>
+#13 0x55ef126ae834 <unknown>
+#14 0x55ef126751ef <unknown>
+#15 0x55ef126d2038 <unknown>
+#16 0x55ef126d2216 <unknown>
+#17 0x55ef126e2896 <unknown>
+#18 0x7f6918708aa4 <unknown>
+#19 0x7f6918795c3c <unknown>
+
+2025-03-11 01:23:55,723 - INFO - Cerrando el navegador
+2025-03-11 01:24:08,127 - INFO - patching driver executable /home/carevalo/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-03-11 01:24:08,671 - INFO - Driver headless inicializado correctamente
+2025-03-11 01:24:08,671 - INFO - Intentando unirse a la reunión como invitado: https://meet.google.com/whq-cfhh-eji
+2025-03-11 01:24:28,217 - INFO - URL actual: https://meet.google.com/whq-cfhh-eji
+2025-03-11 01:24:28,362 - INFO - Captura guardada: screenshots/1_pagina_meet_cargada_20250311_012428.png
+2025-03-11 01:24:28,362 - INFO - Ingresando nombre de invitado: Invitado Bot
+2025-03-11 01:25:05,262 - INFO - Selector para nombre input[type='text'] falló: Message: 
+Stacktrace:
+#0 0x55f6c2faca1a <unknown>
+#1 0x55f6c2a64390 <unknown>
+#2 0x55f6c2ab5c85 <unknown>
+#3 0x55f6c2ab5eb1 <unknown>
+#4 0x55f6c2b04d64 <unknown>
+#5 0x55f6c2adbbfd <unknown>
+#6 0x55f6c2b0207b <unknown>
+#7 0x55f6c2adb9a3 <unknown>
+#8 0x55f6c2aa760e <unknown>
+#9 0x55f6c2aa8dd1 <unknown>
+#10 0x55f6c2f72ddb <unknown>
+#11 0x55f6c2f76cbc <unknown>
+#12 0x55f6c2f5a392 <unknown>
+#13 0x55f6c2f77834 <unknown>
+#14 0x55f6c2f3e1ef <unknown>
+#15 0x55f6c2f9b038 <unknown>
+#16 0x55f6c2f9b216 <unknown>
+#17 0x55f6c2fab896 <unknown>
+#18 0x7f7a21bbaaa4 <unknown>
+#19 0x7f7a21c47c3c <unknown>
+
+2025-03-11 01:25:07,851 - INFO - Cerrando el navegador
+2025-03-11 01:25:19,507 - INFO - patching driver executable /home/carevalo/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-03-11 01:25:19,829 - INFO - Driver headless inicializado correctamente
+2025-03-11 01:25:19,829 - INFO - Iniciando proceso de login en Google
+2025-03-11 01:25:20,870 - INFO - Esperando campo de email...
+2025-03-11 01:25:21,203 - INFO - Captura guardada: screenshots/1_email_ingresado_20250311_012521.png
+2025-03-11 01:25:21,361 - INFO - Email ingresado, pasando a contraseña
+2025-03-11 01:25:21,361 - INFO - Esperando campo de contraseña...
+2025-03-11 01:25:25,131 - INFO - Captura guardada: screenshots/2_password_ingresado_20250311_012525.png
+2025-03-11 01:25:35,261 - INFO - Login completado exitosamente
+2025-03-11 01:25:35,349 - INFO - Captura guardada: screenshots/3_login_completado_20250311_012535.png
+2025-03-11 01:25:35,363 - INFO - Intentando unirse a la reunión: https://meet.google.com/cri-vaob-nyw
+2025-03-11 01:25:47,528 - INFO - URL actual: https://meet.google.com/cri-vaob-nyw
+2025-03-11 01:25:47,663 - INFO - Captura guardada: screenshots/4_pagina_meet_cargada_20250311_012547.png
+2025-03-11 01:25:47,792 - INFO - Captura guardada: screenshots/esperandocontroles_20250311_012547.png
+2025-03-11 01:25:47,792 - INFO - Esperando que aparezcan controles de audio/vídeo y botón de unirse...
+2025-03-11 01:25:56,505 - INFO - Captura guardada: screenshots/controlesnada_20250311_012556.png
+2025-03-11 01:26:39,784 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e5040>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/element
+2025-03-11 01:26:39,785 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e4d70>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/element
+2025-03-11 01:26:39,786 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e5100>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/element
+2025-03-11 01:26:39,788 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e4d10>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/element
+2025-03-11 01:26:39,789 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e5760>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/element
+2025-03-11 01:26:39,790 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e59a0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/element
+2025-03-11 01:26:39,791 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e5f10>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/element
+2025-03-11 01:26:39,794 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e6150>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/element
+2025-03-11 01:26:39,798 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e6390>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/element
+2025-03-11 01:26:39,800 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e6900>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/element
+2025-03-11 01:26:39,801 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e6b40>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/element
+2025-03-11 01:26:39,802 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e6d80>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/element
+2025-03-11 01:26:39,803 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e65d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/element
+2025-03-11 01:26:39,804 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e6360>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/element
+2025-03-11 01:26:39,805 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e5f40>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/element
+2025-03-11 01:26:39,806 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e5850>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/screenshot
+2025-03-11 01:26:39,807 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e5b50>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/screenshot
+2025-03-11 01:26:39,807 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e58b0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/screenshot
+2025-03-11 01:26:39,808 - ERROR - Error al capturar pantalla: HTTPConnectionPool(host='localhost', port=37107): Max retries exceeded with url: /session/235bf002e4f46da2e8a6a88debb6a11a/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e4d40>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-11 01:26:39,809 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e4dd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/source
+2025-03-11 01:26:39,809 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e47a0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/source
+2025-03-11 01:26:39,810 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e5520>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/source
+2025-03-11 01:26:39,810 - ERROR - Error al unirse a la reunión: HTTPConnectionPool(host='localhost', port=37107): Max retries exceeded with url: /session/235bf002e4f46da2e8a6a88debb6a11a/source (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e6e70>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-11 01:26:39,811 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e7110>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/screenshot
+2025-03-11 01:26:39,812 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e7290>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/screenshot
+2025-03-11 01:26:39,812 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e7410>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/screenshot
+2025-03-11 01:26:39,813 - ERROR - Error al capturar pantalla: HTTPConnectionPool(host='localhost', port=37107): Max retries exceeded with url: /session/235bf002e4f46da2e8a6a88debb6a11a/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e75c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-11 01:26:39,813 - INFO - Permaneciendo en la reunión por 60 minutos
+2025-03-11 01:26:39,813 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e5c40>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/screenshot
+2025-03-11 01:26:39,814 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e4bf0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/screenshot
+2025-03-11 01:26:39,814 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e5910>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/235bf002e4f46da2e8a6a88debb6a11a/screenshot
+2025-03-11 01:26:39,814 - ERROR - Error al capturar pantalla: HTTPConnectionPool(host='localhost', port=37107): Max retries exceeded with url: /session/235bf002e4f46da2e8a6a88debb6a11a/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eab0e5b80>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-11 01:26:39,814 - INFO - Todavía en la reunión - 0 minutos transcurridos
+2025-03-11 01:26:41,843 - INFO - Cerrando el navegador
+2025-03-11 01:26:46,041 - INFO - patching driver executable /home/carevalo/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-03-11 01:26:46,354 - INFO - Driver headless inicializado correctamente
+2025-03-11 01:26:46,354 - INFO - Intentando unirse a la reunión como invitado: https://meet.google.com/whq-cfhh-eji
+2025-03-11 01:27:09,978 - INFO - URL actual: https://meet.google.com/whq-cfhh-eji
+2025-03-11 01:27:10,081 - INFO - Captura guardada: screenshots/1_pagina_meet_cargada_20250311_012709.png
+2025-03-11 01:27:10,081 - INFO - Ingresando nombre de invitado: Invitado Bot
+2025-03-11 01:27:46,919 - INFO - Selector para nombre input[type='text'] falló: Message: 
+Stacktrace:
+#0 0x5561a47c9a1a <unknown>
+#1 0x5561a4281390 <unknown>
+#2 0x5561a42d2c85 <unknown>
+#3 0x5561a42d2eb1 <unknown>
+#4 0x5561a4321d64 <unknown>
+#5 0x5561a42f8bfd <unknown>
+#6 0x5561a431f07b <unknown>
+#7 0x5561a42f89a3 <unknown>
+#8 0x5561a42c460e <unknown>
+#9 0x5561a42c5dd1 <unknown>
+#10 0x5561a478fddb <unknown>
+#11 0x5561a4793cbc <unknown>
+#12 0x5561a4777392 <unknown>
+#13 0x5561a4794834 <unknown>
+#14 0x5561a475b1ef <unknown>
+#15 0x5561a47b8038 <unknown>
+#16 0x5561a47b8216 <unknown>
+#17 0x5561a47c8896 <unknown>
+#18 0x7f7f64416aa4 <unknown>
+#19 0x7f7f644a3c3c <unknown>
+
+2025-03-11 01:27:55,257 - INFO - Cerrando el navegador
