@@ -196,7 +196,7 @@ def join_meet(driver, meet_url, disable_camera=True, disable_mic=True):
             "button[jsname='A5xaw']",   # Otro selector para "Unirse ahora"
             "button[data-idom-class='nCP5yc AjY5Oe DuMIQc LQeN7 jEvJdc QJgqC']", # Otro posible selector
             "button[jscontroller='soHxf']", # Otro posible selector
-            "[aria-label*='Unirse ahora']", # Buscar por texto del aria-label
+            "[aria-label*='Solicitar unirse']", # Buscar por texto del aria-label
             "[aria-label*='Join now']",      # Buscar en inglés también
             "button[data-mdc-dialog-action='join']" # Otro posible selector
         ]
