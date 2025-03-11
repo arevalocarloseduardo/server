@@ -418,3 +418,21 @@ Stacktrace:
 #19 0x7f7f644a3c3c <unknown>
 
 2025-03-11 01:27:55,257 - INFO - Cerrando el navegador
+2025-03-11 01:47:27,490 - INFO - patching driver executable /home/carevalo/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-03-11 01:47:27,845 - INFO - Driver headless inicializado correctamente
+2025-03-11 01:47:27,845 - INFO - Iniciando proceso de login en Google
+2025-03-11 01:47:28,836 - INFO - Esperando campo de email...
+2025-03-11 01:47:29,206 - INFO - Captura guardada: screenshots/1_email_ingresado_20250311_014729.png
+2025-03-11 01:47:29,387 - INFO - Email ingresado, pasando a contraseña
+2025-03-11 01:47:29,387 - INFO - Esperando campo de contraseña...
+2025-03-11 01:47:33,190 - INFO - Captura guardada: screenshots/2_password_ingresado_20250311_014733.png
+2025-03-11 01:47:43,332 - INFO - Intentando encontrar botón por texto
+2025-03-11 01:47:43,592 - INFO - Login completado exitosamente
+2025-03-11 01:47:43,714 - INFO - Captura guardada: screenshots/3_login_completado_20250311_014743.png
+2025-03-11 01:47:43,721 - INFO - Detectada página post-login, continuando...
+2025-03-11 01:47:50,185 - INFO - Intentando unirse a la reunión: https://meet.google.com/cri-vaob-nyw
+2025-03-11 01:48:05,485 - INFO - URL actual: https://meet.google.com/cri-vaob-nyw
+2025-03-11 01:48:05,649 - INFO - Captura guardada: screenshots/4_pagina_meet_cargada_20250311_014805.png
+2025-03-11 01:48:05,778 - INFO - Captura guardada: screenshots/esperandocontroles_20250311_014805.png
+2025-03-11 01:48:05,778 - INFO - Esperando que aparezcan controles de audio/vídeo y botón de unirse...
+2025-03-11 01:48:08,607 - INFO - Cerrando el navegador
