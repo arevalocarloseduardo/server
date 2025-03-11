@@ -118,8 +118,36 @@ def login_google(driver, email, password):
         logger.info("Login completado exitosamente")
         capture_screenshot(driver, "3_login_completado a")
         time.sleep(5)
-        capture_screenshot(driver, "3_login_completado a")
-        
+        capture_screenshot(driver, "3_login_completado b")
+        wait = WebDriverWait(driver, 10)
+        phone_input = wait.until(EC.presence_of_element_located((By.XPATH, "//input[@type='tel']")))
+        capture_screenshot(driver, "3_login_completado c")
+
+        # A veces puede haber un selector de país que necesitas configurar primero
+        # Si necesitas cambiar el país (por ejemplo, para Argentina)
+        try:
+            country_selector = driver.find_element(By.XPATH, "//div[contains(@class, 'country-selector')]")
+            country_selector.click()
+            
+            # Esperar a que aparezca la lista de países
+            time.sleep(1)
+            capture_screenshot(driver, "3_login_completado d")
+            # Seleccionar Argentina (o el país correspondiente al código +54)
+            argentina_option = driver.find_element(By.XPATH, "//div[contains(text(), 'Argentina') or contains(text(), '+54')]")
+            argentina_option.click()
+        except:
+            # Si no se puede encontrar o hacer clic en el selector de país, continuar
+            pass
+
+        # Limpiar el campo si es necesario y luego ingresar el número
+        phone_input.clear()
+        # Ingresar solo los dígitos (sin el código de país, que debería estar seleccionado)
+        phone_input.send_keys("2216195020")  # O si necesita el código completo: "542216195020"
+        capture_screenshot(driver, "4_login_completado a")
+        # Hacer clic en el botón "Send" o "Enviar"
+        send_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'Send')]")))
+        send_button.click()
+        capture_screenshot(driver, "4_login_completado o")
         # Verificar si hay página de bienvenida o verificación
         try:
             if "myaccount.google.com" in driver.current_url or "accounts.google.com/signin/newfeatures" in driver.current_url:
