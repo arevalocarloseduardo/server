@@ -102,7 +102,14 @@ def login_google(driver, email, password):
         time.sleep(10)
         logger.info("Login completado exitosamente")
         capture_screenshot(driver, "3_login_completado")
-        
+        logger.info("Intentando encontrar botón por texto")
+        buttons = driver.find_elements(By.TAG_NAME, "button")
+        for button in buttons:
+            if button.is_displayed() and any(text in button.text.lower() for text in ["unirse"]):
+                logger.info(f"Encontrado botón con texto: {button.text}")
+                button.click()
+                joined = True
+                break
         # Verificar si hay página de bienvenida o verificación
         try:
             if "myaccount.google.com" in driver.current_url or "accounts.google.com/signin/newfeatures" in driver.current_url:

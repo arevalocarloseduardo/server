@@ -99,17 +99,22 @@ def login_google(driver, email, password):
         password_next.click()
         
         # Esperar a que se complete el inicio de sesión
-        time.sleep(10)
-        try: 
-            logger.info("Intentando encontrar botón por texto")
-            buttons = driver.find_elements(By.TAG_NAME, "button")
-            for button in buttons:
-                if button.is_displayed() and any(text in button.text.lower() for text in ["Get a verification",]):
-                    logger.info(f"Encontrado botón con texto: {button.text}")
-                    button.click()
+        # time.sleep(10)
+        wait = WebDriverWait(driver, 10)
+
+# Para seleccionar la opción de verificación por SMS (segunda opción)
+        sms_option = wait.until(EC.element_to_be_clickable((By.XPATH, "//div[contains(text(), 'Get a verification code')]")))
+        sms_option.click()
+        # try: 
+        #     logger.info("Intentando encontrar botón por texto")
+        #     buttons = driver.find_elements(By.TAG_NAME, "button")
+        #     for button in buttons:
+        #         if button.is_displayed() and any(text in button.text.lower() for text in ["Get a verification",]):
+        #             logger.info(f"Encontrado botón con texto: {button.text}")
+        #             button.click()
                         
-        except:
-            pass
+        # except:
+        #     pass
         logger.info("Login completado exitosamente")
         capture_screenshot(driver, "3_login_completado")
         
@@ -189,26 +194,6 @@ def join_meet(driver, meet_url, disable_camera=True, disable_mic=True):
         # HTML visible para debugging
         logger.debug(f"HTML de la página: {driver.page_source[:500]}...")
         
-        # Intentar diferentes selectores para el botón de unirse
-        join_selectors = [
-            # "button[jscontroller='soHxf']", # Otro posible selector
-            "[aria-label*='Solicitar unirse']", # Buscar por texto del aria-label
-            "[aria-label*='Join now']",      # Buscar en inglés también
-            "button[data-mdc-dialog-action='join']" # Otro posible selector
-        ]
-        capture_screenshot(driver, "6_antes_de_unirse")
-        joined = False
-        for selector in join_selectors:
-            try:
-                logger.info(f"Intentando con selector: {selector}")
-                join_button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, selector)))
-                join_button.click()
-                logger.info("Botón 'Unirse ahora' encontrado y clicado")
-                joined = True
-                break
-            except Exception as e:
-                logger.debug(f"Selector {selector} falló: {e}")
-                continue
         
         if not joined:
             # Intentar buscar por el texto del botón como último recurso
