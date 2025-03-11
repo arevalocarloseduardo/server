@@ -97,7 +97,17 @@ def login_google(driver, email, password):
         # Hacer clic en Iniciar sesión
         password_next = wait.until(EC.element_to_be_clickable((By.ID, "passwordNext")))
         password_next.click()
+        # Check if we're redirected to a verification page
+        time.sleep(5)
+        capture_screenshot(driver, "post_password_page")
         
+        if "signin/v2/challenge/selection" in driver.current_url or "signin/v2/challenge/ipp" in driver.current_url:
+            logger.info("Verificación requerida")
+            if not handle_verification(driver):
+                logger.error("No se pudo completar la verificación")
+                return False
+    except Exception as e:
+        logger.warning(f"Error al comprobar verificación: {e}")
         # Esperar a que se complete el inicio de sesión
         time.sleep(10)
         logger.info("Login completado exitosamente")
@@ -232,7 +242,45 @@ def join_meet(driver, meet_url, disable_camera=True, disable_mic=True):
         logger.error(f"Error al unirse a la reunión: {e}")
         capture_screenshot(driver, "error_join_meet")
         return False
-
+def handle_verification(driver):
+    """Handle the Google verification page"""
+    try:
+        logger.info("Detectada página de verificación")
+        wait = WebDriverWait(driver, 30)
+        
+        # Capture the verification screen
+        capture_screenshot(driver, "verification_page")
+        
+        # Click on the SMS option (first option in your screenshot)
+        sms_option = wait.until(EC.element_to_be_clickable((By.XPATH, "//div[contains(@role, 'radio') and contains(., 'Get a verification code')]")))
+        sms_option.click()
+        logger.info("Opción SMS seleccionada")
+        
+        # Wait for the next button and click it
+        next_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Next') or contains(., 'Siguiente')]")))
+        next_button.click()
+        
+        # Here you would need to either:
+        # 1. Ask for manual input of the code
+        verification_code = input("Ingresa el código de verificación recibido por SMS: ")
+        
+        # 2. Wait for code input field and enter the code
+        code_input = wait.until(EC.element_to_be_clickable((By.XPATH, "//input[@type='tel' or @aria-label='Enter code' or contains(@id, 'code')]")))
+        code_input.send_keys(verification_code)
+        
+        # Click verify button
+        verify_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Verify') or contains(., 'Verificar')]")))
+        verify_button.click()
+        
+        # Wait to ensure verification completes
+        time.sleep(5)
+        capture_screenshot(driver, "post_verification")
+        return True
+        
+    except Exception as e:
+        logger.error(f"Error en el proceso de verificación: {e}")
+        capture_screenshot(driver, "error_verification")
+        return False
 def main():
     # Configuración
     email = "robertogomez5769@gmail.com"
