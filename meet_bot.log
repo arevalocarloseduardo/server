@@ -605,3 +605,279 @@ Stacktrace:
 2025-03-11 15:53:36,515 - ERROR - Error al capturar pantalla: HTTPConnectionPool(host='localhost', port=52801): Max retries exceeded with url: /session/e401541c54ba32dad9fd6c13fae9583b/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e4780392000>: Failed to establish a new connection: [Errno 111] Connection refused'))
 2025-03-11 15:53:36,516 - INFO - Todavía en la reunión - 0 minutos transcurridos
 2025-03-11 15:53:38,043 - INFO - Cerrando el navegador
+2025-03-11 15:56:29,199 - INFO - patching driver executable /root/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-03-11 15:56:29,914 - INFO - Driver headless inicializado correctamente
+2025-03-11 15:56:29,917 - INFO - Intentando unirse a la reunión como invitado: https://meet.google.com/whq-cfhh-eji
+2025-03-11 15:56:51,084 - INFO - URL actual: https://meet.google.com/whq-cfhh-eji
+2025-03-11 15:56:51,242 - INFO - Captura guardada: screenshots/1_pagina_meet_cargada_20250311_155651.png
+2025-03-11 15:56:51,242 - INFO - Ingresando nombre de invitado: Invitado Bot
+2025-03-11 15:57:24,620 - INFO - Selector para nombre input[type='text'] falló: Message: 
+Stacktrace:
+#0 0x60bf83ba8a1a <unknown>
+#1 0x60bf83660390 <unknown>
+#2 0x60bf836b1c85 <unknown>
+#3 0x60bf836b1eb1 <unknown>
+#4 0x60bf83700d64 <unknown>
+#5 0x60bf836d7bfd <unknown>
+#6 0x60bf836fe07b <unknown>
+#7 0x60bf836d79a3 <unknown>
+#8 0x60bf836a360e <unknown>
+#9 0x60bf836a4dd1 <unknown>
+#10 0x60bf83b6eddb <unknown>
+#11 0x60bf83b72cbc <unknown>
+#12 0x60bf83b56392 <unknown>
+#13 0x60bf83b73834 <unknown>
+#14 0x60bf83b3a1ef <unknown>
+#15 0x60bf83b97038 <unknown>
+#16 0x60bf83b97216 <unknown>
+#17 0x60bf83ba7896 <unknown>
+#18 0x7e78acc9caa4 <unknown>
+#19 0x7e78acd29c3c <unknown>
+
+2025-03-11 15:57:57,871 - INFO - Selector para nombre input#mat-input-0 falló: Message: 
+Stacktrace:
+#0 0x60bf83ba8a1a <unknown>
+#1 0x60bf83660390 <unknown>
+#2 0x60bf836b1c85 <unknown>
+#3 0x60bf836b1eb1 <unknown>
+#4 0x60bf83700d64 <unknown>
+#5 0x60bf836d7bfd <unknown>
+#6 0x60bf836fe07b <unknown>
+#7 0x60bf836d79a3 <unknown>
+#8 0x60bf836a360e <unknown>
+#9 0x60bf836a4dd1 <unknown>
+#10 0x60bf83b6eddb <unknown>
+#11 0x60bf83b72cbc <unknown>
+#12 0x60bf83b56392 <unknown>
+#13 0x60bf83b73834 <unknown>
+#14 0x60bf83b3a1ef <unknown>
+#15 0x60bf83b97038 <unknown>
+#16 0x60bf83b97216 <unknown>
+#17 0x60bf83ba7896 <unknown>
+#18 0x7e78acc9caa4 <unknown>
+#19 0x7e78acd29c3c <unknown>
+
+2025-03-11 15:58:31,223 - INFO - Selector para nombre input[aria-label*='name'] falló: Message: 
+Stacktrace:
+#0 0x60bf83ba8a1a <unknown>
+#1 0x60bf83660390 <unknown>
+#2 0x60bf836b1c85 <unknown>
+#3 0x60bf836b1eb1 <unknown>
+#4 0x60bf83700d64 <unknown>
+#5 0x60bf836d7bfd <unknown>
+#6 0x60bf836fe07b <unknown>
+#7 0x60bf836d79a3 <unknown>
+#8 0x60bf836a360e <unknown>
+#9 0x60bf836a4dd1 <unknown>
+#10 0x60bf83b6eddb <unknown>
+#11 0x60bf83b72cbc <unknown>
+#12 0x60bf83b56392 <unknown>
+#13 0x60bf83b73834 <unknown>
+#14 0x60bf83b3a1ef <unknown>
+#15 0x60bf83b97038 <unknown>
+#16 0x60bf83b97216 <unknown>
+#17 0x60bf83ba7896 <unknown>
+#18 0x7e78acc9caa4 <unknown>
+#19 0x7e78acd29c3c <unknown>
+
+2025-03-11 15:59:04,558 - INFO - Selector para nombre input[aria-label*='nombre'] falló: Message: 
+Stacktrace:
+#0 0x60bf83ba8a1a <unknown>
+#1 0x60bf83660390 <unknown>
+#2 0x60bf836b1c85 <unknown>
+#3 0x60bf836b1eb1 <unknown>
+#4 0x60bf83700d64 <unknown>
+#5 0x60bf836d7bfd <unknown>
+#6 0x60bf836fe07b <unknown>
+#7 0x60bf836d79a3 <unknown>
+#8 0x60bf836a360e <unknown>
+#9 0x60bf836a4dd1 <unknown>
+#10 0x60bf83b6eddb <unknown>
+#11 0x60bf83b72cbc <unknown>
+#12 0x60bf83b56392 <unknown>
+#13 0x60bf83b73834 <unknown>
+#14 0x60bf83b3a1ef <unknown>
+#15 0x60bf83b97038 <unknown>
+#16 0x60bf83b97216 <unknown>
+#17 0x60bf83ba7896 <unknown>
+#18 0x7e78acc9caa4 <unknown>
+#19 0x7e78acd29c3c <unknown>
+
+2025-03-11 15:59:37,903 - INFO - Selector para nombre input[placeholder*='name'] falló: Message: 
+Stacktrace:
+#0 0x60bf83ba8a1a <unknown>
+#1 0x60bf83660390 <unknown>
+#2 0x60bf836b1c85 <unknown>
+#3 0x60bf836b1eb1 <unknown>
+#4 0x60bf83700d64 <unknown>
+#5 0x60bf836d7bfd <unknown>
+#6 0x60bf836fe07b <unknown>
+#7 0x60bf836d79a3 <unknown>
+#8 0x60bf836a360e <unknown>
+#9 0x60bf836a4dd1 <unknown>
+#10 0x60bf83b6eddb <unknown>
+#11 0x60bf83b72cbc <unknown>
+#12 0x60bf83b56392 <unknown>
+#13 0x60bf83b73834 <unknown>
+#14 0x60bf83b3a1ef <unknown>
+#15 0x60bf83b97038 <unknown>
+#16 0x60bf83b97216 <unknown>
+#17 0x60bf83ba7896 <unknown>
+#18 0x7e78acc9caa4 <unknown>
+#19 0x7e78acd29c3c <unknown>
+
+2025-03-11 16:00:11,244 - INFO - Selector para nombre input[placeholder*='nombre'] falló: Message: 
+Stacktrace:
+#0 0x60bf83ba8a1a <unknown>
+#1 0x60bf83660390 <unknown>
+#2 0x60bf836b1c85 <unknown>
+#3 0x60bf836b1eb1 <unknown>
+#4 0x60bf83700d64 <unknown>
+#5 0x60bf836d7bfd <unknown>
+#6 0x60bf836fe07b <unknown>
+#7 0x60bf836d79a3 <unknown>
+#8 0x60bf836a360e <unknown>
+#9 0x60bf836a4dd1 <unknown>
+#10 0x60bf83b6eddb <unknown>
+#11 0x60bf83b72cbc <unknown>
+#12 0x60bf83b56392 <unknown>
+#13 0x60bf83b73834 <unknown>
+#14 0x60bf83b3a1ef <unknown>
+#15 0x60bf83b97038 <unknown>
+#16 0x60bf83b97216 <unknown>
+#17 0x60bf83ba7896 <unknown>
+#18 0x7e78acc9caa4 <unknown>
+#19 0x7e78acd29c3c <unknown>
+
+2025-03-11 16:00:11,659 - INFO - Nombre ingresado en campo de entrada encontrado
+2025-03-11 16:00:12,691 - INFO - Captura guardada: screenshots/2_nombre_ingresado_20250311_160011.png
+2025-03-11 16:00:12,692 - INFO - Configurando cámara y micrófono...
+2025-03-11 16:00:13,120 - INFO - Captura guardada: screenshots/3_antes_de_configurar_dispositivos_20250311_160012.png
+2025-03-11 16:00:13,380 - INFO - Captura guardada: screenshots/4_antes_de_pedir_unirse_20250311_160013.png
+2025-03-11 16:00:14,212 - INFO - Intentando con botón visible: <button class="button button--medium button--always-enabled" type="submit" data-g-action="newsletter sign up" data-g-event="meet: footer" data-g-label="submit">
+                            <span class="button__label">Sign up</span>
+                          </button>
+2025-03-11 16:00:15,321 - INFO - Intentando con botón visible: <button class="language-selector__toggle" aria-label="English" role="button" tabindex="0" toggle="">
+                    <img loading="lazy" src="/lp/static/images/language.svg?fingerprint=fae9b8a2ab3f1dc92f08098c9a93a332" width="24" height="24" class="asset language-selector__icon" alt="" role="presentation">
+                    <div class="language-selector__label" label="">
+                      <div>English</div>
+                      <div>Change Language</div>
+                    </div>
+                  </button>
+2025-03-11 16:00:16,561 - INFO - Intentando con botón visible: <button id="cloud-chatbot-chat-activate-bar-desktop" class="chat-activate-bar" aria-label="Chat with us"><svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#4284F4" cx="24" cy="24" r="24"></circle><path d="M12 12h24v24H12z"></path><path d="M32 14H16c-1.1 0-1.99.9-1.99 2L14 34l4-4h14c1.1 0 2-.9 2-2V16c0-1.1-.9-2-2-2zm0 14H16V16h16v12zm-14-4h8v2h-8v-2zm0-3h12v2H18v-2zm0-3h12v2H18v-2z" fill="#FFF" fill-rule="nonzero"></path></g></svg><div class="icon-close"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="24" viewBox="0 0 24 24"><path d="M0 10h18v4h-24z"></path></svg></div></button>
+2025-03-11 16:00:18,552 - INFO - Esperando a que se acepte la solicitud de unirse...
+2025-03-11 16:00:32,676 - INFO - Captura guardada: screenshots/5_esperando_aceptacion_20250311_160032.png
+2025-03-11 16:00:32,786 - INFO - Captura guardada: screenshots/verificacion_0_20250311_160032.png
+2025-03-11 16:00:45,927 - INFO - Captura guardada: screenshots/verificacion_1_20250311_160045.png
+2025-03-11 16:00:59,049 - INFO - Captura guardada: screenshots/verificacion_2_20250311_160058.png
+2025-03-11 16:01:12,181 - INFO - Captura guardada: screenshots/verificacion_3_20250311_160112.png
+2025-03-11 16:01:15,621 - INFO - Cerrando el navegador
+2025-03-11 16:01:59,923 - INFO - patching driver executable /root/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-03-11 16:02:00,516 - INFO - Driver headless inicializado correctamente
+2025-03-11 16:02:00,522 - INFO - Iniciando proceso de login en Google
+2025-03-11 16:02:02,279 - INFO - Esperando campo de email...
+2025-03-11 16:02:02,935 - INFO - Captura guardada: screenshots/1_email_ingresado_20250311_160202.png
+2025-03-11 16:02:03,084 - INFO - Email ingresado, pasando a contraseña
+2025-03-11 16:02:03,084 - INFO - Esperando campo de contraseña...
+2025-03-11 16:02:07,828 - INFO - Captura guardada: screenshots/2_password_ingresado_20250311_160207.png
+2025-03-11 16:02:18,006 - INFO - Intentando encontrar botón por texto
+2025-03-11 16:02:18,022 - INFO - Login completado exitosamente
+2025-03-11 16:02:18,110 - INFO - Captura guardada: screenshots/3_login_completado_20250311_160218.png
+2025-03-11 16:02:18,117 - INFO - Intentando unirse a la reunión: https://meet.google.com/cri-vaob-nyw
+2025-03-11 16:02:31,821 - INFO - URL actual: https://meet.google.com/cri-vaob-nyw
+2025-03-11 16:02:31,958 - INFO - Captura guardada: screenshots/4_pagina_meet_cargada_20250311_160231.png
+2025-03-11 16:02:32,136 - INFO - Captura guardada: screenshots/esperandocontroles_20250311_160231.png
+2025-03-11 16:02:32,136 - INFO - Esperando que aparezcan controles de audio/vídeo y botón de unirse...
+2025-03-11 16:02:37,307 - INFO - Captura guardada: screenshots/controlesnada_20250311_160237.png
+2025-03-11 16:03:11,422 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b68311bb0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/element
+2025-03-11 16:03:11,425 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b68311730>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/element
+2025-03-11 16:03:11,425 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b683115e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/element
+2025-03-11 16:03:11,426 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b683112e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/element
+2025-03-11 16:03:11,428 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b68311d90>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/element
+2025-03-11 16:03:11,429 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b68311fd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/element
+2025-03-11 16:03:11,431 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b68312540>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/element
+2025-03-11 16:03:11,435 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b68312780>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/element
+2025-03-11 16:03:11,437 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b683129c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/element
+2025-03-11 16:03:11,440 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b68312f30>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/element
+2025-03-11 16:03:11,443 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b68313170>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/element
+2025-03-11 16:03:11,446 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b683133b0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/element
+2025-03-11 16:03:11,452 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b68312ba0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/element
+2025-03-11 16:03:11,454 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b683129c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/element
+2025-03-11 16:03:11,460 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b68312750>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/element
+2025-03-11 16:03:11,469 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b68311cd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/screenshot
+2025-03-11 16:03:11,470 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b683122a0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/screenshot
+2025-03-11 16:03:11,474 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b68312030>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/screenshot
+2025-03-11 16:03:11,474 - ERROR - Error al capturar pantalla: HTTPConnectionPool(host='localhost', port=34707): Max retries exceeded with url: /session/9d20ec0724c81e6fa995a7b52a3826f3/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b68311d60>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-11 16:03:11,478 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b68311910>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/source
+2025-03-11 16:03:11,479 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b68310e30>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/source
+2025-03-11 16:03:11,479 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b68311580>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/source
+2025-03-11 16:03:11,481 - ERROR - Error al unirse a la reunión: HTTPConnectionPool(host='localhost', port=34707): Max retries exceeded with url: /session/9d20ec0724c81e6fa995a7b52a3826f3/source (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b68313590>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-11 16:03:11,489 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b68313770>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/screenshot
+2025-03-11 16:03:11,491 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b683138f0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/screenshot
+2025-03-11 16:03:11,493 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b68313a70>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/screenshot
+2025-03-11 16:03:11,495 - ERROR - Error al capturar pantalla: HTTPConnectionPool(host='localhost', port=34707): Max retries exceeded with url: /session/9d20ec0724c81e6fa995a7b52a3826f3/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b68933830>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-11 16:03:11,495 - INFO - Permaneciendo en la reunión por 60 minutos
+2025-03-11 16:03:11,495 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b68311d90>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/screenshot
+2025-03-11 16:03:11,496 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b68312030>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/screenshot
+2025-03-11 16:03:11,503 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b683121e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/screenshot
+2025-03-11 16:03:11,504 - ERROR - Error al capturar pantalla: HTTPConnectionPool(host='localhost', port=34707): Max retries exceeded with url: /session/9d20ec0724c81e6fa995a7b52a3826f3/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b683124b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-11 16:03:11,510 - INFO - Todavía en la reunión - 0 minutos transcurridos
+2025-03-11 16:08:11,521 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b68312810>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/screenshot
+2025-03-11 16:08:11,522 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b683110d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/screenshot
+2025-03-11 16:08:11,523 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b683127e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9d20ec0724c81e6fa995a7b52a3826f3/screenshot
+2025-03-11 16:08:11,523 - ERROR - Error al capturar pantalla: HTTPConnectionPool(host='localhost', port=34707): Max retries exceeded with url: /session/9d20ec0724c81e6fa995a7b52a3826f3/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x720b68312b70>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-11 16:08:11,523 - INFO - Todavía en la reunión - 5 minutos transcurridos
+2025-03-11 16:10:05,194 - INFO - Cerrando el navegador
+2025-03-11 16:10:14,995 - INFO - patching driver executable /root/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-03-11 16:10:15,566 - INFO - Driver headless inicializado correctamente
+2025-03-11 16:10:15,572 - INFO - Iniciando proceso de login en Google
+2025-03-11 16:10:17,515 - INFO - Esperando campo de email...
+2025-03-11 16:10:18,222 - INFO - Captura guardada: screenshots/1_email_ingresado_20250311_161018.png
+2025-03-11 16:10:18,368 - INFO - Email ingresado, pasando a contraseña
+2025-03-11 16:10:18,370 - INFO - Esperando campo de contraseña...
+2025-03-11 16:10:22,809 - INFO - Captura guardada: screenshots/2_password_ingresado_20250311_161022.png
+2025-03-11 16:10:25,709 - INFO - Login completado exitosamente
+2025-03-11 16:10:25,996 - INFO - Captura guardada: screenshots/3_login_completado_20250311_161025.png
+2025-03-11 16:10:26,043 - INFO - Intentando unirse a la reunión: https://meet.google.com/cri-vaob-nyw
+2025-03-11 16:10:41,456 - INFO - URL actual: https://meet.google.com/cri-vaob-nyw
+2025-03-11 16:10:41,595 - INFO - Captura guardada: screenshots/4_pagina_meet_cargada_20250311_161041.png
+2025-03-11 16:10:41,726 - INFO - Captura guardada: screenshots/esperandocontroles_20250311_161041.png
+2025-03-11 16:10:41,726 - INFO - Esperando que aparezcan controles de audio/vídeo y botón de unirse...
+2025-03-11 16:10:46,842 - INFO - Captura guardada: screenshots/controlesnada_20250311_161046.png
+2025-03-11 16:11:08,168 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaacce0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/element
+2025-03-11 16:11:08,172 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500add9be60>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/element
+2025-03-11 16:11:08,176 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaac7a0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/element
+2025-03-11 16:11:08,178 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaacf80>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/element
+2025-03-11 16:11:08,182 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaad250>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/element
+2025-03-11 16:11:08,183 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaad490>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/element
+2025-03-11 16:11:08,186 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaada00>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/element
+2025-03-11 16:11:08,189 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaadc40>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/element
+2025-03-11 16:11:08,190 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaade80>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/element
+2025-03-11 16:11:08,191 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaae3f0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/element
+2025-03-11 16:11:08,193 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaae630>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/element
+2025-03-11 16:11:08,194 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaae870>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/element
+2025-03-11 16:11:08,216 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaadd30>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/element
+2025-03-11 16:11:08,222 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaadeb0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/element
+2025-03-11 16:11:08,224 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaadca0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/element
+2025-03-11 16:11:08,234 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaad340>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/element
+2025-03-11 16:11:08,236 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaad4c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/element
+2025-03-11 16:11:08,236 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaad2b0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/element
+2025-03-11 16:11:08,238 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaac440>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/screenshot
+2025-03-11 16:11:08,238 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaacbf0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/screenshot
+2025-03-11 16:11:08,239 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaae9f0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/screenshot
+2025-03-11 16:11:08,242 - ERROR - Error al capturar pantalla: HTTPConnectionPool(host='localhost', port=34615): Max retries exceeded with url: /session/a839573fe26b5a2edbc7f33bcd8fc148/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaaeba0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-11 16:11:08,242 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaaee10>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/source
+2025-03-11 16:11:08,244 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaaf020>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/source
+2025-03-11 16:11:08,245 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaaf1d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/source
+2025-03-11 16:11:08,250 - ERROR - Error al unirse a la reunión: HTTPConnectionPool(host='localhost', port=34615): Max retries exceeded with url: /session/a839573fe26b5a2edbc7f33bcd8fc148/source (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adf4c4a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-11 16:11:08,251 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaaeb40>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/screenshot
+2025-03-11 16:11:08,253 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaaea50>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/screenshot
+2025-03-11 16:11:08,256 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaaca70>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/screenshot
+2025-03-11 16:11:08,260 - ERROR - Error al capturar pantalla: HTTPConnectionPool(host='localhost', port=34615): Max retries exceeded with url: /session/a839573fe26b5a2edbc7f33bcd8fc148/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaad3d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-11 16:11:08,260 - INFO - Permaneciendo en la reunión por 60 minutos
+2025-03-11 16:11:08,261 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaad760>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/screenshot
+2025-03-11 16:11:08,264 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaac980>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/screenshot
+2025-03-11 16:11:08,265 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaad0d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a839573fe26b5a2edbc7f33bcd8fc148/screenshot
+2025-03-11 16:11:08,269 - ERROR - Error al capturar pantalla: HTTPConnectionPool(host='localhost', port=34615): Max retries exceeded with url: /session/a839573fe26b5a2edbc7f33bcd8fc148/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7500adaad5e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-11 16:11:08,270 - INFO - Todavía en la reunión - 0 minutos transcurridos
+2025-03-11 16:11:12,752 - INFO - Cerrando el navegador
