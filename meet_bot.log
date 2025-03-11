@@ -469,3 +469,36 @@ Stacktrace:
 2025-03-11 01:54:14,614 - INFO - Captura guardada: screenshots/verificacion_0min_20250311_015414.png
 2025-03-11 01:54:14,614 - INFO - Todavía en la reunión - 0 minutos transcurridos
 2025-03-11 01:54:23,258 - INFO - Cerrando el navegador
+2025-03-11 01:56:41,202 - INFO - patching driver executable /home/carevalo/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-03-11 01:56:41,546 - INFO - Driver headless inicializado correctamente
+2025-03-11 01:56:41,546 - INFO - Iniciando proceso de login en Google
+2025-03-11 01:56:42,553 - INFO - Esperando campo de email...
+2025-03-11 01:56:42,942 - INFO - Captura guardada: screenshots/1_email_ingresado_20250311_015642.png
+2025-03-11 01:56:43,131 - INFO - Email ingresado, pasando a contraseña
+2025-03-11 01:56:43,131 - INFO - Esperando campo de contraseña...
+2025-03-11 01:56:46,909 - INFO - Captura guardada: screenshots/2_password_ingresado_20250311_015646.png
+2025-03-11 01:57:00,632 - INFO - Intentando encontrar botón por texto
+2025-03-11 01:57:00,911 - INFO - Login completado exitosamente
+2025-03-11 01:57:01,019 - INFO - Captura guardada: screenshots/3_login_completado_20250311_015700.png
+2025-03-11 01:57:01,027 - INFO - Detectada página post-login, continuando...
+2025-03-11 01:57:07,418 - INFO - Intentando unirse a la reunión: https://meet.google.com/cri-vaob-nyw
+2025-03-11 01:57:18,860 - INFO - URL actual: https://meet.google.com/cri-vaob-nyw
+2025-03-11 01:57:18,963 - INFO - Captura guardada: screenshots/4_pagina_meet_cargada_20250311_015718.png
+2025-03-11 01:57:19,054 - INFO - Captura guardada: screenshots/esperandocontroles_20250311_015718.png
+2025-03-11 01:57:19,055 - INFO - Esperando que aparezcan controles de audio/vídeo y botón de unirse...
+2025-03-11 01:57:24,156 - INFO - Captura guardada: screenshots/controlesnada_20250311_015724.png
+2025-03-11 01:57:24,310 - INFO - Cámara desactivada con selector: [data-is-muted='false'][aria-label*='cámara']
+2025-03-11 01:57:24,456 - INFO - Micrófono desactivado con selector: [data-is-muted='false'][aria-label*='micrófono']
+2025-03-11 01:57:24,584 - INFO - Captura guardada: screenshots/5_antes_de_unirse_20250311_015724.png
+2025-03-11 01:57:24,791 - INFO - Captura guardada: screenshots/6_antes_de_unirse_20250311_015724.png
+2025-03-11 01:57:24,791 - INFO - Intentando con selector: [aria-label*='Solicitar unirse']
+2025-03-11 01:57:58,651 - INFO - Intentando con selector: [aria-label*='Join now']
+2025-03-11 01:58:32,515 - INFO - Intentando con selector: button[data-mdc-dialog-action='join']
+2025-03-11 01:59:06,361 - INFO - Intentando encontrar botón por texto
+2025-03-11 01:59:06,545 - INFO - Encontrado botón con texto: Solicitar unirse
+2025-03-11 01:59:20,308 - INFO - Captura guardada: screenshots/6_reunion_unido_20250311_015920.png
+2025-03-11 01:59:20,308 - INFO - ¡Unido a la reunión exitosamente!
+2025-03-11 01:59:20,308 - INFO - Permaneciendo en la reunión por 60 minutos
+2025-03-11 01:59:20,401 - INFO - Captura guardada: screenshots/verificacion_0min_20250311_015920.png
+2025-03-11 01:59:20,401 - INFO - Todavía en la reunión - 0 minutos transcurridos
+2025-03-11 02:03:57,558 - INFO - Cerrando el navegador
