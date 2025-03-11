@@ -244,7 +244,7 @@ def main():
     # Configuración
     email = "robertogomez5769@gmail.com"
     password = "Algoritmo12."  # Considera usar variables de entorno para credenciales
-    meet_url = "https://meet.google.com/cri-vaob-nyw"
+    meet_url = "https://meet.google.com/cbf-zyur-tfq"
     
     driver = None
     try:
