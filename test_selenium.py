@@ -210,7 +210,7 @@ def join_meet(driver, meet_url, disable_camera=True, disable_mic=True):
                 logger.info("Intentando encontrar botón por texto")
                 buttons = driver.find_elements(By.TAG_NAME, "button")
                 for button in buttons:
-                    if button.is_displayed() and any(text in button.text.lower() for text in ["unirse", "join"]):
+                    if button.is_displayed() and any(text in button.text.lower() for text in ["unirse", "ask"]):
                         logger.info(f"Encontrado botón con texto: {button.text}")
                         button.click()
                         joined = True

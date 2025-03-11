@@ -172,7 +172,7 @@ def join_meet_as_guest(driver, meet_url, guest_name="Invitado", disable_camera=T
             join_button_selectors = [
                 "button:contains('Ask to join')",
                 "button:contains('Pedir unirse')",
-                "button[aria-label*='join']",
+                "button[aria-label*='Ask']",
                 "button[aria-label*='unirse']",
                 "button.join-button",
                 ".join-button",
@@ -199,7 +199,7 @@ def join_meet_as_guest(driver, meet_url, guest_name="Invitado", disable_camera=T
                 buttons = driver.find_elements(By.TAG_NAME, "button")
                 for button in buttons:
                     try:
-                        if button.is_displayed() and any(text in button.text.lower() for text in ["join", "unirse", "ask", "pedir"]):
+                        if button.is_displayed() and any(text in button.text.lower() for text in ["join", "unirse", "Ask", "pedir"]):
                             logger.info(f"Encontrado botón con texto: {button.text}")
                             button.click()
                             joined = True
