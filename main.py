@@ -168,6 +168,7 @@ def join_meet_as_guest(driver, meet_url, guest_name="Invitado", disable_camera=T
         
         # Buscar y hacer clic en el botón "Ask to join" o "Pedir unirse"
         try:
+            
             join_button_selectors = [
                 "button:contains('Ask to join')",
                 "button:contains('Pedir unirse')",
@@ -221,6 +222,16 @@ def join_meet_as_guest(driver, meet_url, guest_name="Invitado", disable_camera=T
                                 break
                     except:
                         continue
+            if not joined:
+               
+                    buttonss = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Solicitar unirse') or contains(., 'Ask to join')]")))
+                    buttonss.click()
+                    time.sleep(2)
+                    logger.info(f"Intentando con botón visible: esta")
+                    if driver.current_url != meet_url:
+                        joined = True
+                         
+                            
             
             if not joined:
                 logger.error("No se pudo encontrar el botón 'Pedir unirse'")
