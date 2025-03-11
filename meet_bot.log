@@ -101,3 +101,17 @@
 2025-03-11 00:39:17,461 - INFO - Captura guardada: screenshots/verificacion_3_20250311_003913.png
 2025-03-11 00:39:27,576 - INFO - Captura guardada: screenshots/verificacion_4_20250311_003927.png
 2025-03-11 00:39:35,593 - INFO - Cerrando el navegador
+2025-03-11 00:43:50,953 - INFO - patching driver executable /home/carevalo/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-03-11 00:43:51,306 - INFO - Driver headless inicializado correctamente
+2025-03-11 00:43:51,306 - INFO - Intentando unirse a la reunión como invitado: https://meet.google.com/cri-vaob-nyw
+2025-03-11 00:44:07,914 - INFO - URL actual: https://meet.google.com/cri-vaob-nyw
+2025-03-11 00:44:08,024 - INFO - Captura guardada: screenshots/1_pagina_meet_cargada_20250311_004407.png
+2025-03-11 00:44:08,024 - INFO - Ingresando nombre de invitado: Invitado Bot
+2025-03-11 00:45:18,815 - INFO - Cerrando el navegador
+2025-03-11 00:46:08,231 - INFO - patching driver executable /home/carevalo/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-03-11 00:46:08,563 - INFO - Driver headless inicializado correctamente
+2025-03-11 00:46:08,563 - INFO - Intentando unirse a la reunión como invitado: https://meet.google.com/cri-vaob-nyw
+2025-03-11 00:46:22,236 - INFO - URL actual: https://meet.google.com/cri-vaob-nyw
+2025-03-11 00:46:22,385 - INFO - Captura guardada: screenshots/1_pagina_meet_cargada_20250311_004622.png
+2025-03-11 00:46:22,385 - INFO - Ingresando nombre de invitado: Invitado Bot
+2025-03-11 00:48:31,498 - INFO - Cerrando el navegador
