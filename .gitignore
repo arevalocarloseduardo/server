@@ -1,0 +1,41 @@
+# Ignorar archivos grandes
+*.deb
+*.iso
+*.tar
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# Ignorar archivos de dependencias y compilación
+node_modules/
+vendor/
+dist/
+build/
+*.o
+*.so
+*.a
+*.out
+*.exe
+*.dll
+
+# Ignorar entornos virtuales de Python
+venv/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar archivos de logs y caché
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignorar configuraciones de sistema y archivos específicos de IDEs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.bak
+*.orig
