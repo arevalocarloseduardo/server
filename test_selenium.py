@@ -100,6 +100,16 @@ def login_google(driver, email, password):
         
         # Esperar a que se complete el inicio de sesión
         time.sleep(10)
+        try: 
+            logger.info("Intentando encontrar botón por texto")
+            buttons = driver.find_elements(By.TAG_NAME, "button")
+            for button in buttons:
+                if button.is_displayed() and any(text in button.text.lower() for text in ["Get a verification",]):
+                    logger.info(f"Encontrado botón con texto: {button.text}")
+                    button.click()
+                        
+        except:
+            pass
         logger.info("Login completado exitosamente")
         capture_screenshot(driver, "3_login_completado")
         
