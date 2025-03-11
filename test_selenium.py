@@ -235,7 +235,7 @@ def join_meet(driver, meet_url, disable_camera=True, disable_mic=True):
 
 def main():
     # Configuración
-    email = "juanperez8761arg@gmail.com"
+    email = "robertogomez5769@gmail.com"
     password = "Algoritmo12."  # Considera usar variables de entorno para credenciales
     meet_url = "https://meet.google.com/cri-vaob-nyw"
     
