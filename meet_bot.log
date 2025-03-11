@@ -202,3 +202,33 @@
 2025-03-11 01:14:44,273 - INFO - Captura guardada: screenshots/5_esperando_aceptacion_20250311_011444.png
 2025-03-11 01:14:44,403 - INFO - Captura guardada: screenshots/verificacion_0_20250311_011444.png
 2025-03-11 01:14:48,179 - INFO - Cerrando el navegador
+2025-03-11 01:18:43,250 - INFO - patching driver executable /home/carevalo/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-03-11 01:18:43,851 - INFO - Driver headless inicializado correctamente
+2025-03-11 01:18:43,852 - INFO - Intentando unirse a la reunión como invitado: https://meet.google.com/buv-dknh-dsx
+2025-03-11 01:19:06,159 - INFO - URL actual: https://meet.google.com/buv-dknh-dsx
+2025-03-11 01:19:06,272 - INFO - Captura guardada: screenshots/1_pagina_meet_cargada_20250311_011906.png
+2025-03-11 01:19:06,272 - INFO - Ingresando nombre de invitado: Invitado Bot
+2025-03-11 01:19:45,213 - INFO - Selector para nombre input[type='text'] falló: Message: 
+Stacktrace:
+#0 0x563fcf505a1a <unknown>
+#1 0x563fcefbd390 <unknown>
+#2 0x563fcf00ec85 <unknown>
+#3 0x563fcf00eeb1 <unknown>
+#4 0x563fcf05dd64 <unknown>
+#5 0x563fcf034bfd <unknown>
+#6 0x563fcf05b07b <unknown>
+#7 0x563fcf0349a3 <unknown>
+#8 0x563fcf00060e <unknown>
+#9 0x563fcf001dd1 <unknown>
+#10 0x563fcf4cbddb <unknown>
+#11 0x563fcf4cfcbc <unknown>
+#12 0x563fcf4b3392 <unknown>
+#13 0x563fcf4d0834 <unknown>
+#14 0x563fcf4971ef <unknown>
+#15 0x563fcf4f4038 <unknown>
+#16 0x563fcf4f4216 <unknown>
+#17 0x563fcf504896 <unknown>
+#18 0x7f447aa36aa4 <unknown>
+#19 0x7f447aac3c3c <unknown>
+
+2025-03-11 01:19:55,147 - INFO - Cerrando el navegador
