@@ -81,3 +81,23 @@
 2025-03-11 00:27:11,747 - INFO - Captura guardada: screenshots/verificacion_2_20250311_002711.png
 2025-03-11 00:27:25,468 - INFO - Captura guardada: screenshots/verificacion_3_20250311_002725.png
 2025-03-11 00:27:32,292 - INFO - Cerrando el navegador
+2025-03-11 00:38:14,663 - INFO - patching driver executable /home/carevalo/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-03-11 00:38:15,179 - INFO - Driver headless inicializado correctamente
+2025-03-11 00:38:15,179 - INFO - Intentando unirse a la reunión como invitado: https://meet.google.com/cri-vaob-nyw
+2025-03-11 00:38:28,895 - INFO - URL actual: https://meet.google.com/cri-vaob-nyw
+2025-03-11 00:38:28,994 - INFO - Captura guardada: screenshots/1_pagina_meet_cargada_20250311_003828.png
+2025-03-11 00:38:28,995 - INFO - Ingresando nombre de invitado: Invitado Bot
+2025-03-11 00:38:29,198 - INFO - Nombre ingresado con selector: input[type='text']
+2025-03-11 00:38:29,308 - INFO - Captura guardada: screenshots/2_nombre_ingresado_20250311_003829.png
+2025-03-11 00:38:29,308 - INFO - Configurando cámara y micrófono...
+2025-03-11 00:38:29,408 - INFO - Captura guardada: screenshots/3_antes_de_configurar_dispositivos_20250311_003829.png
+2025-03-11 00:38:29,541 - INFO - Captura guardada: screenshots/4_antes_de_pedir_unirse_20250311_003829.png
+2025-03-11 00:38:29,694 - INFO - Botón 'Pedir unirse' encontrado y clicado con selector: button[aria-label*='join']
+2025-03-11 00:38:29,694 - INFO - Esperando a que se acepte la solicitud de unirse...
+2025-03-11 00:38:43,380 - INFO - Captura guardada: screenshots/5_esperando_aceptacion_20250311_003843.png
+2025-03-11 00:38:43,474 - INFO - Captura guardada: screenshots/verificacion_0_20250311_003843.png
+2025-03-11 00:38:53,593 - INFO - Captura guardada: screenshots/verificacion_1_20250311_003853.png
+2025-03-11 00:39:03,729 - INFO - Captura guardada: screenshots/verificacion_2_20250311_003903.png
+2025-03-11 00:39:17,461 - INFO - Captura guardada: screenshots/verificacion_3_20250311_003913.png
+2025-03-11 00:39:27,576 - INFO - Captura guardada: screenshots/verificacion_4_20250311_003927.png
+2025-03-11 00:39:35,593 - INFO - Cerrando el navegador
