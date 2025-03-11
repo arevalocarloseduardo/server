@@ -974,3 +974,72 @@ Stacktrace:
 2025-03-11 16:26:43,005 - INFO - Captura guardada: screenshots/error_login_20250311_162642.png
 2025-03-11 16:26:43,005 - ERROR - Error en la ejecución principal: cannot access local variable 'start_time' where it is not associated with a value
 2025-03-11 16:26:43,005 - INFO - Cerrando el navegador
+2025-03-11 16:34:35,558 - INFO - patching driver executable /root/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-03-11 16:34:36,224 - INFO - Driver headless inicializado correctamente
+2025-03-11 16:34:36,233 - INFO - Intentando unirse a la reunión como invitado: https://meet.google.com/whq-cfhh-eji
+2025-03-11 16:34:53,845 - INFO - URL actual: https://meet.google.com/whq-cfhh-eji
+2025-03-11 16:34:53,982 - INFO - Captura guardada: screenshots/1_pagina_meet_cargada_20250311_163453.png
+2025-03-11 16:34:53,983 - INFO - Ingresando nombre de invitado: Invitado Bot
+2025-03-11 16:35:27,470 - INFO - Selector para nombre input[type='text'] falló: Message: 
+Stacktrace:
+#0 0x63b0ebc34a1a <unknown>
+#1 0x63b0eb6ec390 <unknown>
+#2 0x63b0eb73dc85 <unknown>
+#3 0x63b0eb73deb1 <unknown>
+#4 0x63b0eb78cd64 <unknown>
+#5 0x63b0eb763bfd <unknown>
+#6 0x63b0eb78a07b <unknown>
+#7 0x63b0eb7639a3 <unknown>
+#8 0x63b0eb72f60e <unknown>
+#9 0x63b0eb730dd1 <unknown>
+#10 0x63b0ebbfaddb <unknown>
+#11 0x63b0ebbfecbc <unknown>
+#12 0x63b0ebbe2392 <unknown>
+#13 0x63b0ebbff834 <unknown>
+#14 0x63b0ebbc61ef <unknown>
+#15 0x63b0ebc23038 <unknown>
+#16 0x63b0ebc23216 <unknown>
+#17 0x63b0ebc33896 <unknown>
+#18 0x7f650749caa4 <unknown>
+#19 0x7f6507529c3c <unknown>
+
+2025-03-11 16:35:38,351 - INFO - Cerrando el navegador
+2025-03-11 16:35:43,978 - INFO - patching driver executable /root/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-03-11 16:35:44,525 - INFO - Driver headless inicializado correctamente
+2025-03-11 16:35:44,530 - INFO - Iniciando proceso de login en Google
+2025-03-11 16:35:46,435 - INFO - Esperando campo de email...
+2025-03-11 16:35:47,058 - INFO - Captura guardada: screenshots/1_email_ingresado_20250311_163546.png
+2025-03-11 16:35:47,200 - INFO - Email ingresado, pasando a contraseña
+2025-03-11 16:35:47,202 - INFO - Esperando campo de contraseña...
+2025-03-11 16:35:51,120 - INFO - Captura guardada: screenshots/2_password_ingresado_20250311_163551.png
+2025-03-11 16:35:53,489 - INFO - Login completado exitosamente
+2025-03-11 16:35:53,647 - INFO - Captura guardada: screenshots/3_login_completado a_20250311_163553.png
+2025-03-11 16:36:08,827 - INFO - Captura guardada: screenshots/3_login_completado b_20250311_163608.png
+2025-03-11 16:36:09,011 - INFO - Captura guardada: screenshots/3_login_completado c_20250311_163608.png
+2025-03-11 16:36:09,050 - ERROR - Error en login_google: Message: element not interactable
+  (Session info: chrome=134.0.6998.88)
+Stacktrace:
+#0 0x56dfac43ea1a <unknown>
+#1 0x56dfabef61e3 <unknown>
+#2 0x56dfabf3e282 <unknown>
+#3 0x56dfabf6dbd2 <unknown>
+#4 0x56dfabf3b78a <unknown>
+#5 0x56dfabf6dd9e <unknown>
+#6 0x56dfabf9407b <unknown>
+#7 0x56dfabf6d9a3 <unknown>
+#8 0x56dfabf3960e <unknown>
+#9 0x56dfabf3add1 <unknown>
+#10 0x56dfac404ddb <unknown>
+#11 0x56dfac408cbc <unknown>
+#12 0x56dfac3ec392 <unknown>
+#13 0x56dfac409834 <unknown>
+#14 0x56dfac3d01ef <unknown>
+#15 0x56dfac42d038 <unknown>
+#16 0x56dfac42d216 <unknown>
+#17 0x56dfac43d896 <unknown>
+#18 0x761a97a9caa4 <unknown>
+#19 0x761a97b29c3c <unknown>
+
+2025-03-11 16:36:09,183 - INFO - Captura guardada: screenshots/error_login_20250311_163609.png
+2025-03-11 16:36:09,183 - ERROR - Error en la ejecución principal: cannot access local variable 'start_time' where it is not associated with a value
+2025-03-11 16:36:09,183 - INFO - Cerrando el navegador
