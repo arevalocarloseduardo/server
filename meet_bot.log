@@ -40,3 +40,25 @@
 2025-03-10 23:58:12,432 - ERROR - Error al capturar pantalla: HTTPConnectionPool(host='localhost', port=38819): Max retries exceeded with url: /session/5e4a17519d06dc7ade3667083790b517/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f304b190b30>: Failed to establish a new connection: [Errno 111] Connection refused'))
 2025-03-10 23:58:12,432 - INFO - Todavía en la reunión - 0 minutos transcurridos
 2025-03-10 23:58:16,385 - INFO - Cerrando el navegador
+2025-03-11 00:14:07,387 - INFO - patching driver executable /home/carevalo/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-03-11 00:14:07,723 - INFO - Driver headless inicializado correctamente
+2025-03-11 00:14:07,723 - INFO - Iniciando proceso de login en Google
+2025-03-11 00:14:12,609 - INFO - Esperando campo de email...
+2025-03-11 00:14:12,958 - INFO - Captura guardada: screenshots/1_email_ingresado_20250311_001412.png
+2025-03-11 00:14:13,126 - INFO - Email ingresado, pasando a contraseña
+2025-03-11 00:14:13,126 - INFO - Esperando campo de contraseña...
+2025-03-11 00:14:16,888 - INFO - Captura guardada: screenshots/2_password_ingresado_20250311_001416.png
+2025-03-11 00:14:27,022 - INFO - Login completado exitosamente
+2025-03-11 00:14:27,102 - INFO - Captura guardada: screenshots/3_login_completado_20250311_001427.png
+2025-03-11 00:14:27,118 - INFO - Intentando unirse a la reunión: https://meet.google.com/cri-vaob-nyw
+2025-03-11 00:14:39,110 - INFO - URL actual: https://meet.google.com/cri-vaob-nyw
+2025-03-11 00:14:39,200 - INFO - Captura guardada: screenshots/4_pagina_meet_cargada_20250311_001439.png
+2025-03-11 00:14:39,320 - INFO - Captura guardada: screenshots/esperandocontroles_20250311_001439.png
+2025-03-11 00:14:39,320 - INFO - Esperando que aparezcan controles de audio/vídeo y botón de unirse...
+2025-03-11 00:14:44,425 - INFO - Captura guardada: screenshots/controlesnada_20250311_001444.png
+2025-03-11 00:15:18,357 - INFO - Cámara desactivada con selector: [data-is-muted='false'][aria-label*='camera']
+2025-03-11 00:15:52,342 - INFO - Micrófono desactivado con selector: [data-is-muted='false'][aria-label*='microphone']
+2025-03-11 00:15:52,482 - INFO - Captura guardada: screenshots/5_antes_de_unirse_20250311_001552.png
+2025-03-11 00:15:52,564 - INFO - Intentando con selector: [jsname='CQylAd']
+2025-03-11 00:16:26,388 - INFO - Intentando con selector: button[jsname='Qx7uuf']
+2025-03-11 00:16:48,790 - INFO - Cerrando el navegador
