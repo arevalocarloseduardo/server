@@ -67,10 +67,10 @@ def join_meet_as_guest(driver, meet_url, guest_name="Invitado", disable_camera=T
     try:
         logger.info(f"Intentando unirse a la reunión como invitado: {meet_url}")
         driver.get(meet_url)
-        wait = WebDriverWait(driver, 35)
+        wait = WebDriverWait(driver, 33)
         
         # Esperar a que la página cargue completamente
-        time.sleep(20)
+        time.sleep(17)
         logger.info(f"URL actual: {driver.current_url}")
         capture_screenshot(driver, "1_pagina_meet_cargada")
         
@@ -139,7 +139,7 @@ def join_meet_as_guest(driver, meet_url, guest_name="Invitado", disable_camera=T
                             if "off" not in btn.get_attribute("aria-label").lower() and btn.is_displayed():
                                 btn.click()
                                 logger.info("Cámara desactivada manualmente")
-                                time.sleep(1)
+                                time.sleep(2)
                         except:
                             continue
                 except Exception as e:
@@ -155,7 +155,7 @@ def join_meet_as_guest(driver, meet_url, guest_name="Invitado", disable_camera=T
                             if "off" not in btn.get_attribute("aria-label").lower() and btn.is_displayed():
                                 btn.click()
                                 logger.info("Micrófono desactivado manualmente")
-                                time.sleep(1)
+                                time.sleep(3)
                         except:
                             continue
                 except Exception as e:
@@ -215,7 +215,7 @@ def join_meet_as_guest(driver, meet_url, guest_name="Invitado", disable_camera=T
                         if button.is_displayed():
                             logger.info(f"Intentando con botón visible: {button.get_attribute('outerHTML')}")
                             button.click()
-                            time.sleep(2)
+                            time.sleep(1.5)
                             # Verificar si la URL cambió como señal de éxito
                             if driver.current_url != meet_url:
                                 joined = True
@@ -226,7 +226,7 @@ def join_meet_as_guest(driver, meet_url, guest_name="Invitado", disable_camera=T
                
                     buttonss = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Solicitar unirse') or contains(., 'Ask to join')]")))
                     buttonss.click()
-                    time.sleep(2)
+                    time.sleep(2.5)
                     logger.info(f"Intentando con botón visible: esta")
                     if driver.current_url != meet_url:
                         joined = True
@@ -244,7 +244,7 @@ def join_meet_as_guest(driver, meet_url, guest_name="Invitado", disable_camera=T
         
         # Esperar a que se una a la reunión o a que se acepte la solicitud
         logger.info("Esperando a que se acepte la solicitud de unirse...")
-        time.sleep(10)
+        time.sleep(14)
         capture_screenshot(driver, "5_esperando_aceptacion")
         
         # Verificar cada 10 segundos si se unió correctamente durante 2 minutos
@@ -264,10 +264,10 @@ def join_meet_as_guest(driver, meet_url, guest_name="Invitado", disable_camera=T
                     logger.info("URL indica que estamos dentro de la reunión")
                     return True
                 
-                time.sleep(10)
+                time.sleep(13)
             except Exception as e:
                 logger.error(f"Error al verificar estado de reunión: {e}")
-                time.sleep(10)
+                time.sleep(11)
         
         logger.warning("No se pudo confirmar la entrada a la reunión después de esperar 2 minutos")
         return False
