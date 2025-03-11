@@ -935,3 +935,42 @@ Stacktrace:
 2025-03-11 16:15:43,827 - ERROR - Error al capturar pantalla: HTTPConnectionPool(host='localhost', port=33425): Max retries exceeded with url: /session/078395e60d56bb3e9820218fbbbe5fad/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7aa0907ed3d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
 2025-03-11 16:15:43,827 - INFO - Todavía en la reunión - 0 minutos transcurridos
 2025-03-11 16:15:45,256 - INFO - Cerrando el navegador
+2025-03-11 16:26:27,960 - INFO - patching driver executable /root/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-03-11 16:26:28,534 - INFO - Driver headless inicializado correctamente
+2025-03-11 16:26:28,546 - INFO - Iniciando proceso de login en Google
+2025-03-11 16:26:30,287 - INFO - Esperando campo de email...
+2025-03-11 16:26:30,916 - INFO - Captura guardada: screenshots/1_email_ingresado_20250311_162630.png
+2025-03-11 16:26:31,054 - INFO - Email ingresado, pasando a contraseña
+2025-03-11 16:26:31,054 - INFO - Esperando campo de contraseña...
+2025-03-11 16:26:34,932 - INFO - Captura guardada: screenshots/2_password_ingresado_20250311_162634.png
+2025-03-11 16:26:37,317 - INFO - Login completado exitosamente
+2025-03-11 16:26:37,543 - INFO - Captura guardada: screenshots/3_login_completado a_20250311_162637.png
+2025-03-11 16:26:42,692 - INFO - Captura guardada: screenshots/3_login_completado b_20250311_162642.png
+2025-03-11 16:26:42,823 - INFO - Captura guardada: screenshots/3_login_completado c_20250311_162642.png
+2025-03-11 16:26:42,859 - ERROR - Error en login_google: Message: element not interactable
+  (Session info: chrome=134.0.6998.88)
+Stacktrace:
+#0 0x5848731f9a1a <unknown>
+#1 0x584872cb11e3 <unknown>
+#2 0x584872cf9282 <unknown>
+#3 0x584872d28bd2 <unknown>
+#4 0x584872cf678a <unknown>
+#5 0x584872d28d9e <unknown>
+#6 0x584872d4f07b <unknown>
+#7 0x584872d289a3 <unknown>
+#8 0x584872cf460e <unknown>
+#9 0x584872cf5dd1 <unknown>
+#10 0x5848731bfddb <unknown>
+#11 0x5848731c3cbc <unknown>
+#12 0x5848731a7392 <unknown>
+#13 0x5848731c4834 <unknown>
+#14 0x58487318b1ef <unknown>
+#15 0x5848731e8038 <unknown>
+#16 0x5848731e8216 <unknown>
+#17 0x5848731f8896 <unknown>
+#18 0x70268629caa4 <unknown>
+#19 0x702686329c3c <unknown>
+
+2025-03-11 16:26:43,005 - INFO - Captura guardada: screenshots/error_login_20250311_162642.png
+2025-03-11 16:26:43,005 - ERROR - Error en la ejecución principal: cannot access local variable 'start_time' where it is not associated with a value
+2025-03-11 16:26:43,005 - INFO - Cerrando el navegador
