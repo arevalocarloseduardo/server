@@ -117,7 +117,7 @@ def login_google(driver, email, password):
         #     pass
         logger.info("Login completado exitosamente")
         capture_screenshot(driver, "3_login_completado a")
-        time.sleep(5)
+        time.sleep(15)
         capture_screenshot(driver, "3_login_completado b")
         wait = WebDriverWait(driver, 10)
         phone_input = wait.until(EC.presence_of_element_located((By.XPATH, "//input[@type='tel']")))
