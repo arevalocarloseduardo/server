@@ -116,7 +116,9 @@ def login_google(driver, email, password):
         # except:
         #     pass
         logger.info("Login completado exitosamente")
-        capture_screenshot(driver, "3_login_completado")
+        capture_screenshot(driver, "3_login_completado a")
+        time.sleep(5)
+        capture_screenshot(driver, "3_login_completado a")
         
         # Verificar si hay página de bienvenida o verificación
         try:
