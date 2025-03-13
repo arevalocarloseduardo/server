@@ -2,3 +2,7 @@ selenium
 undetected-chromedriver
 Pillow
 webdriver-manager
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
