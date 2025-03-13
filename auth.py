@@ -54,6 +54,7 @@ def get_credentials():
 def join_google_meet_with_auth_session(meet_link):
     """Une a una reunión de Google Meet usando una sesión autenticada."""
     chrome_options = Options()
+    chrome_options.add_argument("--headless=new")
     chrome_options.add_argument("--no-sandbox")  
     chrome_options.add_argument("--start-maximized")
     chrome_options.add_argument("--use-fake-ui-for-media-stream")

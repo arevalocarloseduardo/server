@@ -1,4 +1,5 @@
-
+python3 -m venv venv
+source venv/bin/activate
 # Instalar Google chromium en Ubuntu
 sudo apt install chromium-chromedriver
 # Instalar Google Chrome en Ubuntu
