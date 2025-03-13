@@ -39,7 +39,14 @@ def create_chrome_session():
 
 def join_gmeet_with_profile(meet_code=""):
     """Usa el perfil guardado para unirse a una reunión de Google Meet"""
-    
+     
+    user_data_dir = '/home/carevalo/server/chrome_profile'
+        
+        # Asegúrate de que el directorio y el perfil son correctos
+        # options.add_argument(f"user-data-dir={user_data_dir}")
+        
+        # Asegúrate de agregar el argumento correctamente
+        
     # Verificar que el directorio del perfil existe
     if not os.path.exists(PROFILE_PATH):
         print("¡Error! No se encontró el perfil de Chrome. Ejecuta primero create_chrome_session().")
@@ -47,7 +54,9 @@ def join_gmeet_with_profile(meet_code=""):
     
     # Configurar opciones de Chrome
     chrome_options = Options()
-    chrome_options.add_argument(f"--user-data-dir={PROFILE_PATH}")
+    chrome_options.add_argument(f"user-data-dir={user_data_dir}")
+    chrome_options.add_argument("profile-directory=Default")  # Si estás usando el perfil "Default"
+    # chrome_options.add_argument(f"--user-data-dir={PROFILE_PATH}")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--use-fake-ui-for-media-stream")  # Para permitir acceso a micrófono/cámara
