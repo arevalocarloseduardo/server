@@ -55,6 +55,7 @@ def join_gmeet_with_profile(meet_code=""):
     # Configurar opciones de Chrome
     chrome_options = Options()
     chrome_options.add_argument(f"user-data-dir={user_data_dir}")
+    print(f"Usando directorio temporal para los datos de usuario: {user_data_dir}")
     chrome_options.add_argument("profile-directory=Default")  # Si estás usando el perfil "Default"
     # chrome_options.add_argument(f"--user-data-dir={PROFILE_PATH}")
     chrome_options.add_argument("--no-sandbox")
