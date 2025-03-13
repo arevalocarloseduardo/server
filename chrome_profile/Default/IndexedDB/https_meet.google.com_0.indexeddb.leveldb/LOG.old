@@ -1,3 +1,3 @@
-2025/03/13-12:53:19.222 8107 Reusing MANIFEST /Users/mac/proyects/server/chrome_profile/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/03/13-12:53:19.222 8107 Recovering log #3
-2025/03/13-12:53:19.222 8107 Reusing old log /Users/mac/proyects/server/chrome_profile/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/000003.log 
+2025/03/13-14:53:51.108 a503 Reusing MANIFEST /Users/mac/proyects/server/chrome_profile/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/13-14:53:51.108 a503 Recovering log #3
+2025/03/13-14:53:51.109 a503 Reusing old log /Users/mac/proyects/server/chrome_profile/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/000003.log 
