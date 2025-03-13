@@ -1,2 +1,3 @@
-2025/03/12-13:19:04.295 a703 Creating DB /Users/mac/proyects/server/chrome_profile/Default/GCM Store since it was missing.
-2025/03/12-13:19:04.306 a703 Reusing MANIFEST /Users/mac/proyects/server/chrome_profile/Default/GCM Store/MANIFEST-000001
+2025/03/13-12:53:22.863 a903 Reusing MANIFEST /Users/mac/proyects/server/chrome_profile/Default/GCM Store/MANIFEST-000001
+2025/03/13-12:53:22.864 a903 Recovering log #3
+2025/03/13-12:53:22.864 a903 Reusing old log /Users/mac/proyects/server/chrome_profile/Default/GCM Store/000003.log 

@@ -10,7 +10,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 # Directorio para el perfil de Chrome
 PROFILE_PATH = os.path.join(os.getcwd(), "chrome_profile")
-
+# PROFILE_PATH = os.path.join(os.getcwd(), "chrome_profile_unique")
 def create_chrome_session():
     """Crea una sesión de Chrome con un perfil persistente y permite el login manual"""
     
