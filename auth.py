@@ -47,6 +47,7 @@ def get_credentials():
                 "credentials.json", scopes=SCOPES
             )
             creds = flow.run_local_server(port=0)
+            # creds = flow.run_console()
         with open("token.pickle", "wb") as token:
             pickle.dump(creds, token)
     return creds
@@ -71,6 +72,7 @@ def join_google_meet_with_auth_session(meet_link):
         take_screenshot(driver, "google_login")
         
         wait = WebDriverWait(driver, 120)
+        print(driver.current_url)
         if "myaccount.google.com" not in driver.current_url:
             print("Inicia sesión en la ventana del navegador...")
             wait.until(lambda d: "myaccount.google.com" in d.current_url or "google.com/webhp" in d.current_url)
