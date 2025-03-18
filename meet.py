@@ -24,6 +24,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from gtts import gTTS  # type: ignore
 import tempfile
 from pydub import AudioSegment  # type: ignore
+from pyngrok import ngrok # type: ignore
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
@@ -53,12 +54,7 @@ start_phrases = [
 stop_phrases = ["chau op scrum", "terminamos la daily", "chau op", "hasta luego"]
 accumulated_transcriptions = []  # type: ignore
 last_complete_transcription_time = time.time()
-
 def audio_callback(indata, frames, time_info, status):
-    """
-    Callback que se ejecuta cada vez que se capturan nuevos datos de audio.
-    Si tts_active es True, se omite el audio para evitar transcribir el audio inyectado.
-    """
     if status:
         print("Error:", status)
     global tts_active
@@ -66,11 +62,7 @@ def audio_callback(indata, frames, time_info, status):
         return
     else:
         q.put(bytes(indata))
-
-
 WEBHOOK_TRANSCRIPTION_URL = "https://sagasti.app.n8n.cloud/webhook/ed6f394b-3d61-4288-b8b7-15a34292c84e"  # Actualiza esta URL
-
-
 def send_to_webhook(text, meet):
     """
     Envía la transcripción completa al webhook de n8n.
@@ -93,13 +85,8 @@ def send_to_webhook(text, meet):
         print(Fore.YELLOW + "\nTermine de enviar:" + Style.RESET_ALL, text)
     except Exception as e:
         logging.error(f"Excepción al enviar webhook de transcripción: {e}")
-
-
-# Datos de la reunión.
 meet_data = {"email": None, "password": None, "meet_url": None, "toSend": None}
-
 meeting_driver: webdriver.Chrome | None = None
-
 def join_meet(meet_url, email, password):
     logging.info("Iniciando proceso de unión a la reunión...")
     chrome_options = webdriver.ChromeOptions()
@@ -276,11 +263,9 @@ def handle_join_meet():
     logging.info("🟢 Reunión iniciada")
     return jsonify({"message": "Reunión iniciada"}), 200
 
-
 async def generate_tts_audio(text, filename):
     communicate = edge_tts.Communicate(text, "es-AR-ElenaNeural", rate="+23%")
     await communicate.save(filename)
-
 
 @app.route("/inject-audio", methods=["POST"])
 def handle_inject_audio():
@@ -320,7 +305,6 @@ def handle_inject_audio():
                 logging.info("meet finalizada.")
         threading.Thread(target=disable_tts, daemon=True).start()
         return jsonify({"message": "Audio inyectado exitosamente"}), 200
-
     except Exception as e:
         logging.error(f"Error inyectando audio: {e}")
         return jsonify({"error": str(e)}), 500
@@ -363,6 +347,8 @@ def start_meeting_process():
     current_stop_flag = None  # Restablecer bandera
     meeting_driver = None
     logging.info("El proceso de la reunión ha finalizado.")
-
+    
 if __name__ == "__main__":
+    public_url = ngrok.connect(5004)
+    print(" * ngrok tunnel URL:", public_url)
     app.run(host="0.0.0.0", port=5004)

@@ -7,3 +7,12 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
 sudo apt install python3-distutils
 sudo apt install python3-setuptools
+python -m pip install --upgrade pip setuptools
+sudo apt install portaudio19-dev
+sudo apt update && sudo apt install ffmpeg
+
+
+mkdir -p models && cd models
+wget https://alphacephei.com/vosk/models/vosk-model-es-0.42.zip
+unzip vosk-model-es-0.42.zip
+mv vosk-model-es-0.42 vosk-model
